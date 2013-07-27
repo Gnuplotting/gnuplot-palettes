@@ -11,7 +11,7 @@ set style line 5 lt 1 lc rgb '#000000' #
 set style line 6 lt 1 lc rgb '#000000' #
 set style line 7 lt 1 lc rgb '#000000' #
 set style line 8 lt 1 lc rgb '#000000' #
-set styl eline 9 lt 1 lc rgb '#000000' #
+set style line 9 lt 1 lc rgb '#000000' #
 
 # palette
 # TODO: check if the short version gives the same results
