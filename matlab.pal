@@ -1,15 +1,15 @@
 # MATLAB jet color pallete
 
 # line styles
-set style line 1 lt 1 lc rgb '#000000' #
-set style line 2 lt 1 lc rgb '#000000' #
-set style line 3 lt 1 lc rgb '#000000' #
-set style line 4 lt 1 lc rgb '#000000' #
-set style line 5 lt 1 lc rgb '#000000' #
-set style line 6 lt 1 lc rgb '#000000' #
-set style line 7 lt 1 lc rgb '#000000' #
-set style line 8 lt 1 lc rgb '#000000' #
-set style line 9 lt 1 lc rgb '#000000' #
+set style line 1 lt 1 lc rgb '#000080' #
+set style line 2 lt 1 lc rgb '#0000ff' #
+set style line 3 lt 1 lc rgb '#0080ff' #
+set style line 4 lt 1 lc rgb '#00ffff' #
+set style line 5 lt 1 lc rgb '#80ff80' #
+set style line 6 lt 1 lc rgb '#ffff00' #
+set style line 7 lt 1 lc rgb '#ff8000' #
+set style line 8 lt 1 lc rgb '#ff0000' #
+set style line 9 lt 1 lc rgb '#800000' #
 
 # palette
 set palette defined (0  0.0 0.0 0.5, \

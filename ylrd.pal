@@ -1,0 +1,12 @@
+# line styles
+set style line 1 lt 1 lc rgb '#ffee00' # yellow 
+set style line 2 lt 1 lc rgb '#ff7000' #
+set style line 3 lt 1 lc rgb '#ee0000' #
+set style line 4 lt 1 lc rgb '#7f0000' # red
+
+# palette
+set palette defined ( \
+    0 '#ffee00', \
+    1 '#ff7000', \
+    2 '#ee0000', \
+    3 '#7f0000')
