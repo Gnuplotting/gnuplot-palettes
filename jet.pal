@@ -10,6 +10,14 @@ set style line 6 lt 1 lc rgb '#ffff00' #
 set style line 7 lt 1 lc rgb '#ff8000' #
 set style line 8 lt 1 lc rgb '#ff0000' #
 set style line 9 lt 1 lc rgb '#800000' #
+# line style used together with jet (<2014b)
+set style line 11 lt 1 lc rgb '#0000ff' # blue
+set style line 12 lt 1 lc rgb '#007f00' # green
+set style line 13 lt 1 lc rgb '#ff0000' # red
+set style line 14 lt 1 lc rgb '#00bfbf' # cyan
+set style line 15 lt 1 lc rgb '#bf00bf' # pink
+set style line 16 lt 1 lc rgb '#bfbf00' # yellow
+set style line 17 lt 1 lc rgb '#3f3f3f' # black
 
 # palette
 set palette defined (0  0.0 0.0 0.5, \
