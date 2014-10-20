@@ -8,7 +8,7 @@
 reset
 
 # wxt
-set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
+#set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
 # png
 set terminal pngcairo size 1024,1600 enhanced font 'Verdana,10'
 set output 'overview.png'
@@ -50,15 +50,20 @@ do for [pal in "\
     unset label
 }
 
-load 'matlab.pal'
-set lmargin 4
-set rmargin 4
-plot 'overview.txt' u 1:2:3 w image
-set label 1 'matlab' at -1,0 left front
-set lmargin -6
-set rmargin 1
-plot for [ii=1:9] f(x,ii) ls ii lw 2
-unset label
+do for [pal in "jet parula"] {
+    filename = pal . '.pal'
+    load filename
+    # plot colorbar
+    set lmargin 4
+    set rmargin 4
+    plot 'overview.txt' u 1:2:3 w image
+    # plot lines
+    set label 1 pal at -1,0 left front
+    set lmargin -6
+    set rmargin 1
+    plot for [ii=1:9] f(x,ii) ls ii lw 2
+    unset label
+}
 
 load 'whylrd.pal'
 set lmargin 4
