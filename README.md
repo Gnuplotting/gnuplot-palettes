@@ -13,4 +13,4 @@ them after the above command.
 An example usage can be found here:
 http://www.gnuplotting.org/ease-your-plotting-with-config-snippets/
 
-![Image](overview.png)
+![Image](doc/overview.png)

@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 #
-# <+DESCRIPTION+>
+# Create overview over all palettes
 #
 # AUTHOR: Hagen Wierstorf
 # gnuplot 4.6 patchlevel 1
@@ -8,16 +8,12 @@
 reset
 
 # wxt
-#set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
+set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
 # png
-set terminal pngcairo size 1024,1600 enhanced font 'Verdana,10'
-set output 'overview.png'
-
-# color definitions
-
+#set terminal pngcairo size 1024,1600 enhanced font 'Verdana,10'
+#set output 'overview.png'
 
 unset key
-
 unset border
 unset key
 unset tics
