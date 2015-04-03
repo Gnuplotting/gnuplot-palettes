@@ -17,4 +17,7 @@ Most of the palettes are from [ColorBrewer](http://colorbrewer2.org/) and were
 first ported to gnuplot by [Anna
 Schneider](https://github.com/aschn/gnuplot-colorbrewer).
 
+If you look for a good standard palette try `moreland.pal`, which comes from
+[Kenneth Moreland](http://www.sandia.gov/~kmorel/documents/ColorMaps/).
+
 ![Image](doc/overview.png)
