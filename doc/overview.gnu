@@ -6,12 +6,13 @@
 # gnuplot 4.6 patchlevel 1
 
 reset
+set loadpath '../'
 
 # wxt
 set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
 # png
-#set terminal pngcairo size 1024,1600 enhanced font 'Verdana,10'
-#set output 'overview.png'
+set terminal pngcairo size 1024,1600 enhanced font 'Verdana,10'
+set output 'overview.png'
 
 unset key
 unset border
@@ -46,7 +47,7 @@ do for [pal in "\
     unset label
 }
 
-do for [pal in "jet parula"] {
+do for [pal in "jet parula chromajs"] {
     filename = pal . '.pal'
     load filename
     # plot colorbar
