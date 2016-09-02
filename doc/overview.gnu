@@ -3,7 +3,7 @@
 # Create overview over all palettes
 #
 # AUTHOR: Hagen Wierstorf
-# gnuplot 4.6 patchlevel 1
+# gnuplot 5.0 patchlevel 3
 
 reset
 set loadpath '../'
