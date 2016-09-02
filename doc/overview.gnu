@@ -9,7 +9,7 @@ reset
 set loadpath '../'
 
 # wxt
-set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
+#set terminal wxt size 1024,1600 enhanced font 'Verdana,10' persist
 # png
 set terminal pngcairo size 1024,1600 enhanced font 'Verdana,10'
 set output 'overview.png'
@@ -25,7 +25,7 @@ f(x,i) = cos(x - 1.0 + i/10.0)
 
 set xrange [0:pi]
 
-set multiplot layout 14,6
+set multiplot layout 15,6
 # colorbrewer diverging
 do for [pal in "\
     brbg prgn piyg puor rdbu rdgy rdylbu rdylgn spectral\
@@ -37,11 +37,12 @@ do for [pal in "\
     load filename
     # plot colorbar
     set lmargin 4
-    set rmargin 4
-    plot 'overview.txt' u 1:2:3 w image
+    set rmargin 0
+    plot 'overview.txt' matrix w image
+    set xrange [0:pi]
     # plot lines
     set label 1 pal at -1,0 left front
-    set lmargin -6
+    set lmargin 1
     set rmargin 1
     plot for [ii=1:8] f(x,ii) ls ii lw 2
     unset label
@@ -52,11 +53,11 @@ do for [pal in "jet parula chromajs"] {
     load filename
     # plot colorbar
     set lmargin 4
-    set rmargin 4
-    plot 'overview.txt' u 1:2:3 w image
+    set rmargin 0
+    plot 'overview.txt' matrix w image
     # plot lines
     set label 1 pal at -1,0 left front
-    set lmargin -6
+    set lmargin 1
     set rmargin 1
     plot for [ii=1:9] f(x,ii) ls ii lw 2
     unset label
@@ -64,20 +65,20 @@ do for [pal in "jet parula chromajs"] {
 
 load 'whylrd.pal'
 set lmargin 4
-set rmargin 4
-plot 'overview.txt' u 1:2:3 w image
+set rmargin 0
+plot 'overview.txt' matrix w image
 set label 1 'whylrd' at -1,0 left front
-set lmargin -6
+set lmargin 1
 set rmargin 1
 plot for [ii=1:5] f(x,ii) ls ii lw 2
 unset label
 
 load 'ylrd.pal'
 set lmargin 4
-set rmargin 4
-plot 'overview.txt' u 1:2:3 w image
+set rmargin 0
+plot 'overview.txt' matrix w image
 set label 1 'ylrd' at -1,0 left front
-set lmargin -6
+set lmargin 1
 set rmargin 1
 plot for [ii=1:4] f(x,ii) ls ii lw 2
 unset label
@@ -89,11 +90,11 @@ do for [pal in "\
     load filename
     # plot colorbar
     set lmargin 4
-    set rmargin 4
-    plot 'overview.txt' u 1:2:3 w image
+    set rmargin 0
+    plot 'overview.txt' matrix w image
     # plot lines
     set label 1 pal at -1,0 left front
-    set lmargin -6
+    set lmargin 1
     set rmargin 1
     plot for [ii=1:10] f(x,ii) ls ii lw 2
     unset label
