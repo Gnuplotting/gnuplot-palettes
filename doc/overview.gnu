@@ -39,7 +39,6 @@ do for [pal in "\
     set lmargin 4
     set rmargin 0
     plot 'overview.txt' matrix w image
-    set xrange [0:pi]
     # plot lines
     set label 1 pal at -1,0 left front
     set lmargin 1
