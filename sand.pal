@@ -1,0 +1,27 @@
+# Sequential palette in sand colors
+# From G. N. Peterson, Cartographer's toolkit, PertersonGIS, 2012
+
+# line styles
+set style line  1 lt 1 lc rgb '#604860' # dark brown
+set style line  2 lt 1 lc rgb '#784860' # brown
+set style line  3 lt 1 lc rgb '#a86060' # brown
+set style line  4 lt 1 lc rgb '#c07860' # light brown
+set style line  5 lt 1 lc rgb '#f0a848' # orange
+set style line  6 lt 1 lc rgb '#f8ca8c' # orange
+set style line  7 lt 1 lc rgb '#feecae' # yellow
+set style line  8 lt 1 lc rgb '#fff4c2' # yellow
+set style line  9 lt 1 lc rgb '#fff7db' # light yellow
+set style line 10 lt 1 lc rgb '#fffcf6' # white
+
+# palette
+set palette defined (\
+0 '#604860',\
+1 '#784860',\
+2 '#a86060',\
+3 '#c07860',\
+4 '#f0a848',\
+5 '#f8ca8c',\
+6 '#feecae',\
+7 '#fff4c2',\
+8 '#fff7db',\
+9 '#fffcf6')

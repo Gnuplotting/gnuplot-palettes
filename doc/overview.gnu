@@ -83,9 +83,7 @@ set rmargin 1
 plot for [ii=1:4] f(x,ii) ls ii lw 2
 unset label
 
-do for [pal in "\
-    gnpu\
-    "] {
+do for [pal in "gnpu sand"] {
     filename = pal . '.pal'
     load filename
     # plot colorbar
