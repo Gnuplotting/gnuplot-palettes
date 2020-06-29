@@ -9,6 +9,18 @@
 # set output "turbo.png"
 # test palette
 
+# line styles
+set style line 1 lt 1 lc rgb '#30123b' #
+set style line 2 lt 1 lc rgb '#466be3' #
+set style line 3 lt 1 lc rgb '#28bceb' #
+set style line 4 lt 1 lc rgb '#32f298' #
+set style line 5 lt 1 lc rgb '#a4fc3c' #
+set style line 6 lt 1 lc rgb '#eecf3a' #
+set style line 7 lt 1 lc rgb '#fb7e21' #
+set style line 8 lt 1 lc rgb '#d02f05' #
+set style line 9 lt 1 lc rgb '#7a0403' #
+
+
 # palette
 set palette defined (\
 0.0 0.18995 0.07176 0.23217,\

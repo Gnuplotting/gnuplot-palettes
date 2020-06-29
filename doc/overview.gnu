@@ -47,7 +47,7 @@ do for [pal in "\
     unset label
 }
 
-do for [pal in "jet parula chromajs viridis plasma magma inferno"] {
+do for [pal in "jet turbo parula chromajs viridis plasma magma inferno"] {
     filename = pal . '.pal'
     load filename
     # plot colorbar
