@@ -9,9 +9,9 @@ reset
 set loadpath '../'
 
 # wxt
-#set terminal wxt size 1024,1829 enhanced font 'Verdana,10' persist
+#set terminal wxt size 1024,1943 enhanced font 'Verdana,10' persist
 # png
-set terminal pngcairo size 1024,1829 enhanced font 'Verdana,10'
+set terminal pngcairo size 1024,1943 enhanced font 'Verdana,10'
 set output 'overview.png'
 
 unset key
@@ -25,7 +25,7 @@ f(x,i) = cos(x - 1.0 + i/10.0)
 
 set xrange [0:pi]
 
-set multiplot layout 16,6
+set multiplot layout 17,6
 # colorbrewer diverging
 do for [pal in "\
     brbg prgn piyg puor rdbu rdgy rdylbu rdylgn spectral\
