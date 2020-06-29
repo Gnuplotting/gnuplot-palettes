@@ -31,7 +31,7 @@ do for [pal in "\
     brbg prgn piyg puor rdbu rdgy rdylbu rdylgn spectral\
     accent dark2 paired pastel1 pastel2 set1 set2 set3\
     blues bugn bupu gnbu greens greys orrd oranges pubu pubugn purd purples rdpu reds ylgn ylgnbu ylorbr ylorrd\
-    moreland\
+    moreland bentcoolwarm\
     "] {
     filename = pal . '.pal'
     load filename
