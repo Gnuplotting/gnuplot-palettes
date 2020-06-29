@@ -1,4 +1,5 @@
-#  Palette from GoogleAI 
+#  Copyright 2019 Google LLC
+# License: Apache-2.0
 #
 # Converted for use with Gnuplot from Python by Jarvist Moore Frost
 # converted from 
@@ -266,4 +267,3 @@ set palette defined (\
 0.98828125 0.50664 0.02354 0.00863,\
 0.9921875 0.49321 0.01963 0.00955,\
 0.99609375 0.4796 0.01583 0.01055)
-
