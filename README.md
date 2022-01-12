@@ -18,6 +18,6 @@ first ported to gnuplot by [Anna
 Schneider](https://github.com/aschn/gnuplot-colorbrewer).
 
 If you look for a good standard palette try `moreland.pal`, which comes from
-[Kenneth Moreland](http://www.sandia.gov/~kmorel/documents/ColorMaps/).
+[Kenneth Moreland](https://www.kennethmoreland.com/color-maps/).
 
 ![Image](doc/overview.png)
